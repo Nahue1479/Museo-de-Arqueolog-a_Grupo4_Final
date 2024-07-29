@@ -1,0 +1,348 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #E3BA70;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #ffcc00;
+}
+
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+
+.quieres-saber {
+    background-image: url(Imagenes/fondo_index.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0; 
+}
+
+
+#fondo h2 {
+    color: white;
+}
+
+#fondo p {
+    color: white;
+}
+
+#fondo2 {
+
+    background-image: url(Imagenes/textura_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    height: 600px;
+    width: 1900px;
+
+}
+
+#fondo2 h2 {
+    color: #454c16;
+}
+
+#fondo2 p {
+    color: #454c16;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.custom-btn {
+
+    color: white;
+    background-color: #795548;
+}
+
+
+.custom-footer {
+    background-color: #454c16;
+
+}
+
+.footer-text {
+    color: #E3BA70;
+}
+
+.custom-navbar {
+    background-color: #454c16;
+
+}
+
+.nav-item {
+    color: #E3BA70;
+}
+
+@font-face {
+    font-family: 'dinosaur';
+    src: url('fonts/dinosaur.woff2') format('woff2'),
+         url('fonts/dinosaur.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.custom-footer {
+    
+    padding: 20px 0;
+}
+
+.social-logo {
+    height: 40px; 
+    margin: 0 10px; 
+}
+
+.footer-logo {
+    height: 50px; 
+}
+
+.footer-text {
+    margin: 0; 
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-bg {
+    background-color: #f8f9fa;
+}
+
+.custom-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+}
+
+.custom-modal-footer-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.custom-modal-footer-btn:hover {
+    background-color: #0056b3;
+}
+
+.custom-modal-text {
+    color: #333;
+}
+
+.mandibula{
+   background-image: url(Imagenes/fondo_acercade.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 25px;
+   
+
+}
+.evolución{
+    background-image: url(Imagenes/fondo_evolución.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    
+ 
+ }
+
+ 
+
+.porque{
+    background-image: url(Imagenes/fondo_dinosaurios.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+.section-background{
+    background-image: url(Imagenes/fondo_dinos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+   
+}
+.tiposdedinos{
+    background-image: url(Imagenes/fondo_acercade1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+   
+}
+.textura_exhibiciones{
+    background-image: url(Imagenes/fondo_exhibiciones.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+.serinvestigador{
+    background-image: url(Imagenes/fondo_investigaciones.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.huevos{
+    background-image: url(Imagenes/huevos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+   
+}
+.visitanos{
+    background-image: url(Imagenes/fondo_visitanos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+   
+}
+
+.ambar{
+    background-image: url(Imagenes/ambar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+   
+}
+
+.fondo-iconos {
+    padding: 40px 0;
+    background-color: #444A2F;
+    color: #DAB46E;
+
+}
+
+.subir {
+    padding: 10px 0;
+    background-color: #444A2F;
+
+}
+
+.bg-image {
+    background-image: url('Imagenes/visitas.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    transition: transform 0.5s ease;
+}
+
+.zoom:hover img {
+    transform: scale(1.05);
+}
+
+.datos {
+    background-image: url('Imagenes/fondo5datos.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content {
+    background-image: url(Imagenes/Fondo_modal/acuatico.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+.modal-content-1 {
+    background-image: url(Imagenes/Fondo_modal/terrestres.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+}
+.modal-content-2 {
+    background-image: url(Imagenes/Fondo_modal/voladores.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+}
+
+.titulodatos {
+    font-family: 'dinosaur';
+    src: url('fonts/dinosaur.woff2') format('woff2'),
+         url('fonts/dinosaur.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    color: #454c16;
+}
+
+.modal-content-background{
+    background-image: url(Imagenes/fondo5datos.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.centered-button {
+    display: flex;
+    justify-content: center;
+}
+
+.Guías{
+    background-image: url(Imagenes/fondo_visitaguiada.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+.frecuentes {
+    background-image: url(Imagenes/preguntas.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
